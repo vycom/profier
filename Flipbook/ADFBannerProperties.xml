@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<adf>
+  <banner>
+    <details>
+      <uniqueId>4311c23fd467bf9d71a5e95797832212</uniqueId>
+      <format>Single Expanding</format>
+      <name>Flipbook</name>
+      <events>1</events>
+    </details>
+    <settings>
+      <responsiveWidth>1</responsiveWidth>
+      <responsiveHeight>0</responsiveHeight>
+      <position>1</position>
+      <expandsTo>down</expandsTo>
+      <autoShowAfter>0</autoShowAfter>
+      <autoCloseAfter>0</autoCloseAfter>
+      <expandDelay>0</expandDelay>
+      <closeOnRollOut>0</closeOnRollOut>
+      <showType>0</showType>
+      <expandTime>0</expandTime>
+      <collapseTime>0</collapseTime>
+      <pushdown>0</pushdown>
+      <collapsedWidth>248</collapsedWidth>
+      <collapsedHeight>200</collapsedHeight>
+      <enableSideKickAnimation>0</enableSideKickAnimation>
+      <landingPageTarget>_blank</landingPageTarget>
+    </settings>
+    <assets>
+      <asset>
+        <sourceType>src</sourceType>
+        <fileName><![CDATA[Flipbook_main_asset]]></fileName>
+        <clickTagNames>
+          <clickTagName>clickTAG</clickTagName>
+          <clickTagName>clickTAG2</clickTagName>
+          <clickTagName>clickTAG3</clickTagName>
+          <clickTagName>clickTAG4</clickTagName>
+          <clickTagName>clickTAG5</clickTagName>
+          <clickTagName>clickTAG6</clickTagName>
+          <clickTagName>clickTAG7</clickTagName>
+          <clickTagName>clickTAG8</clickTagName>
+        </clickTagNames>
+        <eventIds/>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc</sourceType>
+        <fileName><![CDATA[square-1-v2.jpg]]></fileName>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc1</sourceType>
+        <fileName><![CDATA[square-2-v2.jpg]]></fileName>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc2</sourceType>
+        <fileName><![CDATA[square-3-v2.jpg]]></fileName>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc3</sourceType>
+        <fileName><![CDATA[square-4-v2.jpg]]></fileName>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc4</sourceType>
+        <fileName><![CDATA[square-5-v2.jpg]]></fileName>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc5</sourceType>
+        <fileName><![CDATA[square-6-v2.jpg]]></fileName>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc6</sourceType>
+        <fileName><![CDATA[square-7-v2.jpg]]></fileName>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc7</sourceType>
+        <fileName><![CDATA[square-8-v2.jpg]]></fileName>
+      </asset>
+      <asset>
+        <sourceType>additionalSrc8</sourceType>
+        <fileName><![CDATA[background-01.jpg]]></fileName>
+      </asset>
+    </assets>
+    <bannerClickTags>
+      <bannerClickTag name="clickTAG" displayName="clickTAG"><![CDATA[http://www.vycom.no]]></bannerClickTag>
+      <bannerClickTag name="clickTAG2" displayName="clickTAG2"><![CDATA[http://www.profier.no]]></bannerClickTag>
+      <bannerClickTag name="clickTAG3" displayName="clickTAG3"><![CDATA[http://www.adform.com]]></bannerClickTag>
+      <bannerClickTag name="clickTAG4" displayName="clickTAG4"><![CDATA[http://www.adform.com]]></bannerClickTag>
+      <bannerClickTag name="clickTAG5" displayName="clickTAG5"><![CDATA[http://www.adform.com]]></bannerClickTag>
+      <bannerClickTag name="clickTAG6" displayName="clickTAG6"><![CDATA[http://www.adform.com]]></bannerClickTag>
+      <bannerClickTag name="clickTAG7" displayName="clickTAG7"><![CDATA[http://www.adform.com]]></bannerClickTag>
+      <bannerClickTag name="clickTAG8" displayName="clickTAG8"><![CDATA[http://www.adform.com]]></bannerClickTag>
+    </bannerClickTags>
+    <bannerEvents/>
+    <variables/>
+  </banner>
+</adf>

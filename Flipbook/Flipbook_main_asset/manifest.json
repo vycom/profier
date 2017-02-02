@@ -1,0 +1,24 @@
+{
+    "version": "1.0",
+    "uniqueId": "4311c23fd467bf9d71a5e95797832212",
+    "title": "Flipbook_main_asset",
+    "description": "flipbook",
+    "width": 1192,
+    "height": 600,
+    "events": {
+        "enabled": 0,
+        "list": {
+        }
+    },
+    "clicktags": {
+        "clickTAG": "http:\/\/www.vycom.no",
+        "clickTAG2": "http:\/\/www.profier.no",
+        "clickTAG3": "http:\/\/www.adform.com",
+        "clickTAG4": "http:\/\/www.adform.com",
+        "clickTAG5": "http:\/\/www.adform.com",
+        "clickTAG6": "http:\/\/www.adform.com",
+        "clickTAG7": "http:\/\/www.adform.com",
+        "clickTAG8": "http:\/\/www.adform.com"
+    },
+    "source": "index.html"
+}

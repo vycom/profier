@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Flipbook v 1.5</title>
+	<script>
+		var components = [
+			'SingleExpanding'
+		];
+		document.write('<script src="'+ (window.API_URL || 'https://s1.adform.net/banners/scripts/rmb/Adform.DHTML.js?bv='+ Math.random()) +'"><\/script>');
+		
+	</script>
+    <link rel="stylesheet" href="//s1.adform.net/Banners/Scripts/assets/css/adformStyles.v0.9.0.css">
+	<link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+
+    <div id="adf-banner" class="adf-Banner u-sizeFull">
+        <div id="adf-wrapper" class="adf-Wrapper">
+    		<!-- Logo - feel free to remove this element -->
+	        <div id="adf-logo" class="adf-Logo"></div>
+	        
+	        <!-- Close Button - if you want to remove this element please remove listener in User Code below -->
+            <div id="adf-close-button" class="adf-Button adf-Close">Close</div>
+        </div>
+    </div>
+    
+    <!-- Components -->
+    <script src="//s1.adform.net/Banners/Scripts/assets/components/Adf.Flip.min.js"></script>
+    <!-- Components -->
+
+    <!-- User code -->
+    <script>
+        var settings = {
+            columns: 4, // max value 10, default value 3
+            rows: 2, // max value 10, default value 3
+            animationDuration: 3, // greater than 0, default value 3
+            autocloseTimer: 0, // default value 0
+            perspective: 800, // greater than 100, default value 800
+            rotationAngle: 180, // between 0 and 180 (optimal value 180)
+            inside: 0, // set 1 (or true) if you want panels to flip inside
+            
+            // you can remove panels array if you need just images from additional assets
+            /* PANELS ARRAY */
+            panels: [
+                {
+                    content: Adform.getAsset(1),
+                    clickUrl: Adform.getClickURL('clickTAG')
+                },
+                {
+                    content: Adform.getAsset(2),
+                    clickUrl: Adform.getClickURL('clickTAG2')
+				},
+                {
+                    content: Adform.getAsset(3),
+                    clickUrl: Adform.getClickURL('clickTAG3')
+                },
+                {
+                    content: Adform.getAsset(4),
+                    clickUrl: Adform.getClickURL('clickTAG4')
+                },
+                {
+                    content: Adform.getAsset(5),
+                    clickUrl: Adform.getClickURL('clickTAG5')
+                },
+                {
+                    content: Adform.getAsset(6),
+                    clickUrl: Adform.getClickURL('clickTAG6')
+                },
+                {
+                    content: Adform.getAsset(7),
+                    clickUrl: Adform.getClickURL('clickTAG7')
+                },
+                {
+                    content: Adform.getAsset(8),
+                    clickUrl: Adform.getClickURL('clickTAG8')
+                }
+            ]
+            /* PANELS ARRAY */
+        };
+        
+        var flip = new Adf.Flip(settings);
+        
+        flip.init();
+
+        dhtml.byId("adf-close-button").onclick = function () {
+        	flip.collapse();
+        };
+
+    </script>
+    <!-- User code -->
